@@ -1,0 +1,64 @@
+.filmes {
+    width: 100%;
+    max-width: 130rem;
+    margin: 4rem auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    justify-items: center;
+    grid-gap: 4rem;
+}
+
+.filme {
+    width: 40rem;
+    border-radius: 8px;
+}
+
+.filme-title {
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
+
+.release_date,
+.rt_score,
+h3 {
+    font-size: 1.6rem;
+    padding: 8px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    border-radius: 8px;
+}
+
+h3 {
+    background-image: linear-gradient(to left, rgb(255, 142, 142), rgb(255, 116, 181));
+}
+
+.release_date {
+    background-image: linear-gradient(to left, rgb(142, 210, 255), rgb(116, 255, 220));
+}
+
+.rt_score {
+    background-image: linear-gradient(to left, rgb(255, 142, 142), rgb(255, 155, 116));
+}
+
+
+.image-description img{
+    width: 100%;
+    position: relative;
+}
+
+.description {
+    border: 2px solid white;
+    padding: 1rem;
+
+    font-weight: 600;
+    color: rgb(255, 249, 249);
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.3;
+    z-index: 100;
+    
+}
